@@ -1,1 +1,1 @@
-# moscow-carters-bot
+# carter-moscow-bot
