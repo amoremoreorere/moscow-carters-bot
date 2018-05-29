@@ -472,12 +472,12 @@ def help_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
        telebot.types.InlineKeyboardButton(
-           'Сделать заказ', url='t.me/missekler'
+           'Сделать заказ', url='t.me/scar_amo'
        )
    )
    bot.send_message(
        message.chat.id,
-       'Если вам что-то понравилось, то пишите об этом @missekler. Вы перейдете на страницу чата автоматически, нажав кнопку ниже :)',
+       'Если вам что-то понравилось, то пишите об этом @scar_amo Вы перейдете на страницу чата автоматически, нажав кнопку ниже :) Либо можете связаться с нами по телефону 89859379924',
        reply_markup=keyboard
    )
 
@@ -486,12 +486,12 @@ def help_command(message):
    keyboard = telebot.types.InlineKeyboardMarkup()
    keyboard.add(
        telebot.types.InlineKeyboardButton(
-           'Канал для мам из Строгино', url='t.me/strogino_mama_papa'
+           'Самый полезный канал для жителей района Строгино', url='t.me/strogino_online'
        )
    )
    bot.send_message(
        message.chat.id,
-       'Присоединяйся к каналу для мам из Строгино! Там интересно и весело! И много полезного!',
+       'Присоединяйся к каналу для жителей района Строгино! Там интересно и весело! И много полезного!',
        reply_markup=keyboard
    )
 
